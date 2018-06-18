@@ -1,20 +1,9 @@
 package com.onetoone.all.OneToOne;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "students_DetailsDB")
 public class Student {
 
-	@Id
-	@Column(name = "sid")
 	private int sid;
-	@Column(name = "sname", length = 10)
 	private String name;
-	@Column(name = "grp", length = 10)
 	private String group;
 
 	public Student() {

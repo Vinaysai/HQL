@@ -15,8 +15,8 @@
 		<property name="show_sql">true</property>
 
 		<property name="format_sql">true</property>
-		<mapping class="com.onetoone.all.OneToOne.Student" />
-		<mapping class="com.onetoone.all.OneToOne.Address" />
+		
+		<mapping resource="Student.hbm.xml" />
 
 	</session-factory>
 </hibernate-configuration>
